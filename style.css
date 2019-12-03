@@ -72,7 +72,7 @@ a {
 header {
     width: 100%;
     height: 36px;
-    border-top: 4px solid #e66464;
+    border-top: 4px solid #2cc2bb;
     padding: 25px 0;
 }
 
@@ -113,7 +113,8 @@ header nav ul li {
 div#mainimage {
     width: 100%;
     height: 392px;
-    background: url(images/mainimage.jpg) no-repeat top center;
+    background: url(images/mainimage3-min.png) no-repeat;
+		background-size: cover;
 }
 
 div#mainimage_text {
@@ -148,7 +149,7 @@ div#mainimage_text dl dd {
 div#introduction {
     width: 100%;
     height: auto;
-    background-color: #ed7c7c;
+    background-color: #2cc2bb;
 }
 
 div#introduction_wrapper {
@@ -234,7 +235,7 @@ div#course_list h4 {
 }
 
 div#course_list ul li {
-    border-top: 1px solid #eae9e7;
+    border-top: 1px solid #2cc2bb;
     padding: 15px;
 }
 
@@ -296,7 +297,7 @@ div#price div#price_title h3 {
     font-weight: 900;
     color: #474747;
     display: inline-block;
-    border-bottom: 4px solid #e56d7c;
+    border-bottom: 4px solid #2cc2bb;
     padding-bottom: 15px;
     margin-right: 28px;
 }
@@ -320,7 +321,7 @@ div#price ul li p.plan {
     font-weight: bold;
 }
 div#price ul li p.price {
-    color: #e56d7c;
+    color: #474747;
     font-size: 28px;
     font-weight: 900;
     margin: 15px 0 30px 0;
@@ -342,7 +343,7 @@ div#price dl dd {
 div#price a {
     color: #fff;
     font-weight: 900;
-    background-color: #e56d7c;
+    background-color: #2cc2bb;
     display: inline-block;
     border-radius: 5px;
     padding: 0 25px;
@@ -365,163 +366,3 @@ footer {
     text-align: center;
     line-height: 73px;
 }
-
-
-
-
-@media screen and (max-width: 978px) {
-    nav { display: none; }
-    div#header_inner {
-        padding: 0 30px;
-        width: auto;
-    }
-    div#mainimage {
-        height: auto;
-        background-color: #eae9e7;
-    }
-    div#mainimage_text {
-        width: auto;
-        padding: 60px 30px;
-    }
-    div#mainimage_text p {
-        letter-spacing: 1px;
-    }
-    div#mainimage_text dl {
-        width: auto;
-    }
-    div#introduction_title {
-        height: auto;
-    }
-    div#introduction_title h3 {
-        float: none;
-    }
-    div#introduction_title span {
-        display: block;
-        margin-top: 10px;
-    }
-    div#introduction_wrapper {
-        width: auto;
-        padding: 30px;
-
-    }
-    div#teacher_list {
-        width: auto;
-        height: auto;
-        margin-bottom: 30px;
-        float: none;
-    }
-    div#teacher_list ul li {
-        width: 32.266666666667%;
-        margin-right: 1.6%;
-    }
-    div#teacher_list ul li img {
-        width: 100%;
-    }
-    div#teacher_list ul li dl dt {
-        height: auto;
-    }
-    div#course_list {
-        width: auto;
-        float: none;
-    }
-    div#price_wrapper {
-        width: auto;
-        padding: 30px;
-    }
-    div#price div#price_title {
-        height: auto;
-    }
-    div#price div#price_title h3 {
-        float: none;
-
-    }
-    div#price div#price_title span {
-        display: block;
-        margin-top: 10px;
-    }
-    div#price {
-        height: auto;
-    }
-    div#price ul li {
-        float: none;
-        margin: 0 auto 20px auto;
-        width: auto;
-        height: auto;
-    }
-    div#price a {
-        position: static;
-        margin-top: 15px;
-        display: block;
-        text-align: center;
-        height: 44px;
-        line-height: 44px;
-    }
-    footer {
-        font-size: 12px;
-    }
-}
-
-
-@media screen and (max-width: 620px) {
-    div#teacher_list ul li {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    div#teacher_list ul li img {
-        width: 100%;
-    }
-    div#mainimage_text dl dt img,
-    div#mainimage_text dl dd img {
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
