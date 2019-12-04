@@ -310,7 +310,7 @@ div#teacher_list dl dt {
   margin-bottom: 8px;
 }
 
-div#teacher_list dl dd.teacher_image {
+div#teacher_list dl dt.teacher_image {
   width: 100%;
 }
 
