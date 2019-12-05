@@ -476,10 +476,12 @@ footer {
     div#mainimage {
         height: auto;
         background-color: #eae9e7;
+        background-position: 50% 50%;
     }
     div#mainimage_text {
-        width: auto;
+        width: 50%;
         padding: 60px 30px;
+        margin: 0;
     }
     div#mainimage_text p {
         letter-spacing: 1px;
