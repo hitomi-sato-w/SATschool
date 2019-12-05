@@ -306,7 +306,7 @@ div#teacher_list ul li#list_last {
 }
 
 div#teacher_list dl dt {
-  height: 131px;
+  height: 140px;
   margin-bottom: 8px;
 }
 
@@ -479,7 +479,7 @@ footer {
         background-position: 50% 50%;
     }
     div#mainimage_text {
-        width: 50%;
+        width: 45%;
         padding: 60px 30px;
         margin: 0;
     }
@@ -489,6 +489,12 @@ footer {
     div#mainimage_text dl {
         width: auto;
     }
+
+    div#mainimage_text dl dt img,
+    div#mainimage_text dl dd img {
+        width: 100%;
+    }
+
     div#introduction_title {
         height: auto;
     }
@@ -507,19 +513,19 @@ footer {
     div#teacher_list {
         width: auto;
         height: auto;
-        margin-bottom: 30px;
         float: none;
     }
     div#teacher_list ul li {
-        width: 32.266666666667%;
-        margin-right: 1.6%;
+        width: calc(97%/3);
+        margin: 0 0.5%;
     }
     div#teacher_list ul li img {
         width: 100%;
     }
-    div#teacher_list ul li dl dt {
+   div#teacher_list ul li dl dt {
         height: auto;
     }
+
     div#course_list {
         width: auto;
         float: none;
@@ -570,9 +576,22 @@ footer {
     div#teacher_list ul li img {
         width: 100%;
     }
-    div#mainimage_text dl dt img,
+
+    div#mainimage {
+        height: auto;
+        background-color: #eae9e7;
+        background-position: 0 50%;
+    }
+    div#mainimage_text {
+        width: 80%;
+        padding: 60px 30px;
+        margin: 0 auto;
+    }
+
+  /*   div#mainimage_text dl dt img,
     div#mainimage_text dl dd img {
         width: 100%;
-    }
+      
+    } */
 }
 
